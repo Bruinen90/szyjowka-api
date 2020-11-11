@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mobile-slider",
+      "handler": "mobile-slider.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mobile-slider",
+      "handler": "mobile-slider.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mobile-slider",
+      "handler": "mobile-slider.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

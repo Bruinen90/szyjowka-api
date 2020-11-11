@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "offers",
+  "info": {
+    "name": "Offer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "size": {
+      "type": "string",
+      "required": true
+    },
+    "beds": {
+      "type": "string",
+      "required": true
+    },
+    "ground": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "attic": {
+      "type": "string",
+      "required": true
+    },
+    "equipment": {
+      "type": "string",
+      "required": true
+    },
+    "site": {
+      "type": "string",
+      "required": true
+    },
+    "specials": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

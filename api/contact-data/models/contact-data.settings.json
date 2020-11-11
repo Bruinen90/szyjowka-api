@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_data",
+  "info": {
+    "name": "Contact data"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": false
+    },
+    "latitude": {
+      "type": "string"
+    },
+    "longitude": {
+      "type": "string"
+    },
+    "location_name": {
+      "type": "string"
+    },
+    "street": {
+      "type": "string"
+    },
+    "postal_code_city": {
+      "type": "string"
+    },
+    "voivodeship": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    }
+  }
+}

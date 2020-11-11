@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "mobile_sliders",
+  "info": {
+    "name": "Mobile Slider"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
