@@ -16,8 +16,19 @@
       "minLength": 3,
       "maxLength": 60
     },
-    "description": {
-      "type": "text"
+    "target": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
     }
   }
 }

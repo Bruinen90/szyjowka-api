@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "opinions",
+  "info": {
+    "name": "opinion"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "author": {
+      "type": "string",
+      "required": true
+    },
+    "opionion": {
+      "type": "text",
+      "required": true
+    },
+    "date": {
+      "type": "date"
+    },
+    "grade": {
+      "type": "decimal"
+    }
+  }
+}
